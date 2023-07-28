@@ -1,2 +1,562 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Solway:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  line-height: 1.2em;
+  box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto'; 
+   color: #4f2b0f;
+}
+
+.navbar_container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: #fcc544;
+    border-bottom: 2px solid  white;
+}
+.nav_brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'solway';
+    width: 100%;
+    position: relative;
+    top: 7px;
+}
+
+.logo {
+   width: 50px;
+   height: 50px;
+   padding-right: 8px;
+}
+.nav_brand h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.menu_items {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.nav_list {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    left: 40%;
+    top: -5px;
+}
+
+.list_items {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: 800;
+    padding-top: 20px;
+    letter-spacing: .1rem;
+    color: #4f2b0f;
+}
+.nav_links {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4f2b0f;
+    cursor: pointer;
+}
+.nav_links:hover {
+    margin-bottom: 2px;
+    border-bottom: 2px solid #4f2b0f;
+    border-right: 2px solid #4f2b0f;
+    border-width: 60%;
+    padding: 2px;
+}
+/*hero section */
+main {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 738px;
+}
+.hero_container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #fcc544;
+}
+.hero_content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.hero_txt {
+    display: block;
+    align-items: center;
+    position: relative;
+    top: 360px;
+    left: 16px;
+    z-index: 2;
+}
+.paragraph p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    top: -14px;
+    left: 10px;
+    font-size: 1em;
+    font-weight: 600px;
+    padding: 10px;
+    border: 2px dashed #4f2b0f;
+}
+
+.hero_txt h1{
+    display: flex;
+    position: relative;
+    left: 10px;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'solway';
+}
+.hero_txt h3 {
+    position: relative;
+    left: 10px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'solway';
+}
+.banner {
+    display: flex;
+    position: relative;
+    float: left;
+    left: 45%;
+    top: 250px;
+    width: 150px;
+    height: 140px;
+ }
+ 
+ /*menu section*/
+ .menu_container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    width: 100%;
+    color: white;
+ }
+ .menu_grid {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+ }
+
+ .grid1 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/menu_img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 45px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.menu_paragraph{
+   display: block;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   top: 20px;
+   left: 20px;
+   text-transform: uppercase;
+   font-size: .9rem;
+   font-weight: 600;
+   letter-spacing: .2rem;
+}
+.menu_heading {
+    display: flex;
+    position: relative;
+    top: 22px;
+    left: 20px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 900;
+    letter-spacing: .1rem;
+}
+.grid2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    left: 25px;
+ }
+.grid_img {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/menu_img2.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    border-radius: 10px;
+}
+.menu_btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   top: -20px;
+   left: 28%;
+   padding: 14px;
+   text-transform: uppercase;
+   background-color: #fcc544;
+   border: none;
+   outline: none;
+}
+
+.flex_container  {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: -50px;
+}
+
+.flex_txt {
+    display: block;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+    width: 100%;
+    top: 24px;
+    color: #4f2b0f;
+}
+
+.flex_txt h2 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    margin: 6px;
+    font-size: 2.1em;
+    font-weight: 800;
+    font-family: 'solway';
+    text-transform: uppercase;
+    position: relative;
+    right: 20px;
+}
+.flex_txt p {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 70%;
+    left: 8px;
+    margin-left:40px;
+    margin-right: 90px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.flex_content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.flex {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    color: #4f2b0f;
+    padding-top: 40px;
+}
+
+.flex img {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 100px;
+    margin: 20px;
+}
+.flex h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 800;
+    margin: 10px;
+}
+
+.flex p {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 30px;
+    position: relative;
+    left: 30px;
+}
+.flex_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    margin: 10px;
+    padding: 18px;
+    height: 60px;
+    width: 160px;
+    background-color: red;
+    color: aliceblue;
+    font-size: .9em;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+
+.updates_container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 140px;
+}
+.update_txt {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.update_txt h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -90px;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+}
+.update_txt h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    text-transform: uppercase;
+    font-size: 1.7em;
+    font-family: 'solway';
+    margin-bottom: 12px;
+}
+
+.update_txt p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 26px 45px;
+    position: relative;
+    left: 10px;
+}
+.update_img{
+    position: relative;
+    left: 40px;
+    width: 300px;
+    height: 200px;
+}
+/*reservation section*/
+.reserve_container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 180px;
+    padding: 10px;
+}
+.reservation_txt {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.reservation_txt h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.reservation_txt h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    font-family: 'solway';
+}
+form {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 60px;
+    width: 100%;
+}
+form input {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 70%;
+    top: 10px;
+    padding: 16px;
+    margin: 40px 0px;
+    border: 2px solid black;
+    outline: none;
+}
+input[type="button"] {
+    background-color: red;
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+.footer_container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+    width: 100%;
+    height: 50vh;
+    color: aliceblue;
+}
+.footer {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 430px;
+}
+.footer_content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.footer_brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4f2b0f;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+}
+.footer_brand img {
+    width: 50px;
+    height: 50px;
+}
+.footer_brand  h2{
+    color: #4f2b0f;
+    margin-left: 4px;
+    font-size: 1.7em;
+    font-family: 'solway';
+    text-transform: uppercase;
+}
+.footer_content p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 40px;
+    position: relative;
+    left: 20px;
+}
+.address {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -40px;
+    width: 100%;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    font-weight: 900;
+    padding: 8px;
+}
+.icons ion-icon {
+    position: relative;
+    width: 28px;
+    height: 28px;
+}
+.icons p {
+    margin-left: 8px;
+}
+
+.rights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    font-weight: 800;
+}
+.rights p {
+    font-weight: 800;
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    padding: 10px;
+}

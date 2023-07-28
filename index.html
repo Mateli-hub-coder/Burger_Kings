@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BURGER KINGS</title>
+    <title>BURGER KING</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 </head>
 <body>
     <header>
         <nav class="navbar_container">
             <div class="nav_brand">
-                <img src="./images/logo.png" alt="logo">
-                <h2>Burger Kings</h2>
+                <img class="logo" src="./images/logo.png" alt="logo">
+                <h2>Burger King</h2>
             </div>
             <div class="menu_items">
                 <ul class="nav_list">
@@ -48,7 +50,9 @@
             <div class="hero_container">
                 <div class="hero_content">
                     <div class="hero_txt">
+                        <div class="paragraph">
                         <p>It is a good time for the great taste of burgers</p>
+                        </div>
                         <h1>Burger</h1>
                         <h3>week</h3>
                     </div>
@@ -60,66 +64,67 @@
         </section>
         <section id="menu">
             <div class="menu_container">
-                <div class="menu_grid">
+                    <div class="menu_grid">
                     <div class="grid1">
-                        <p>try it today</p>
-                        <h3>Most popular burger</h3>
+                        <p class="menu_paragraph">try it today</p>
+                        <h3 class="menu_heading">Most popular burger</h3>
                     </div>
                     <div class="grid2">
-                        <div class="grid_img1">
-                            <p>try it today</p>
-                            <h3>More fun more taste</h3>
+                        <div class="grid_img">
+                            <p class="menu_paragraph">try it today</p>
+                            <h3 class="menu_heading">More fun more taste</h3>
                         </div>
-                        <div class="grid_img2">
-                            <p>try it today</p>
-                            <h3>Fresh and chilly</h3>
+                        <div class="grid_img">
+                            <p class="menu_paragraph">try it today</p>
+                            <h3 class="menu_heading">Fresh and chilly</h3>
                         </div>
                     </div>
-                    <button type="button">Always tasty burger</button>
                 </div>
+                    <button type="button" class="menu_btn">Always tasty burger</button>
                 <div class="flex_container">
                     <div class="flex_txt">
                         <h2>choose & enjoy</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nihil iusto veniam debitis nam reiciendis maiores corporis harum ad ipsa, eius dicta natus vitae ab dolorum officia voluptatibus voluptates eaque.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur spaadipisicing elit. Neque nihil iusto veniam debitis nam reiciendis maiores corporis harum ad ipsa, eius dicta natus vitae ab dolorum officia voluptatibus voluptates eaque.</p>
                     </div>
                     <div class="flex_content">
                         <div class="flex">
                             <img src="./images/burger1.png" alt="burger">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ipsa, tempora accusantium fuga optio sint ad eos dolore dolores magnam obcaecati pariatur, nostrum nulla vitae alias impedit numquam, necessitatibus soluta.</p>
-                            <button type="button">order now</button>
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit Sed ipsa</p>
+                            <button type="button" class="flex_btn">order now</button>
                         </div>
                         <div class="flex">
                             <img src="./images/burger2.png" alt="burger">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ipsa, tempora accusantium fuga optio sint ad eos dolore dolores magnam obcaecati pariatur, nostrum nulla vitae alias impedit numquam, necessitatibus soluta.</p>
-                            <button type="button">order now</button>
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit Sed ipsa</p>
+                            <button type="button" class="flex_btn">order now</button>
                         </div>
                         <div class="flex">
                             <img src="./images/burger3.png" alt="burger">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ipsa, tempora accusantium fuga optio sint ad eos dolore dolores magnam obcaecati pariatur, nostrum nulla vitae alias impedit numquam, necessitatibus soluta.</p>
-                            <button type="button">order now</button>
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit Sed ipsa</p>
+                            <button type="button" class="flex_btn">order now</button>
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
         </section>
         <section id="events">
-            <div class="updates container">
+            <div class="updates_container">
                 <div class="update_txt">
                    <h4>Discover</h4>
                    <h2>Upcoming events</h2>
                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam tempora obcaecati delectus iure consequatur vel vero quam, praesentium distinctio nihil voluptatem modi dignissimos pariatur autem optio id molestias perferendis quas.</p>
-                </div>
-                <div class="update_img">
-                    <img src="./images/update_img.jpg" alt="">
-                </div>
+                </div> 
+                   <img src="./images/update_img.jpg" alt="" class="update_img"> 
             </div>
         </section>
         <section id="reservation">
+            <div class="reserve_container">
             <div class="reservation_txt">
                 <h4>Reservation</h4>
-                <h1>Book your table</h1>
+                <h2>Book your table</h2>
             </div>
-            <div class="form">
                 <form action="">
                     <input type="text" placeholder="NAME" required>
                     <input type="date" placeholder="DATE" required>
@@ -128,37 +133,42 @@
                     <input type="time" placeholder="TIME" required>
                     <input type="button" value="FIND A TABLE">
                 </form>
-            </div>
+        </div>
         </section>
     </main>
-    <footer>
+    <footer id="contacts">
        <div class="footer_container">
+        <div class="footer">
          <div class="footer_content">
-            <img src="./images/logo.png" alt="logo">
-            <h2>Burger Kings</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quaerat voluptatibus assumenda quis rerum, expedita a sapiente obcaecati. Cupiditate recusandae quasi ratione id obcaecati ullam optio laudantium deserunt reprehenderit consequatur.</p>
+            <div class="footer_brand">
+            <img src="./images/hamburger.png" alt="logo">
+            <h2>Burger King</h2>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis earum molestias, iure a et est illo obcaecati assumenda voluptatibus labore fugit voluptatum fuga ad repellat cumque temporibus numquam quam maxime.</p>
          </div>
          <div class="address">
             <div class="icons">
                 <ion-icon name="location-outline"></ion-icon>
-                <p>Main Road,Building Name,Company</p>
+                <p>MAIN ROAD,BUILDING NAME,COMPANY</p>
             </div>
             <div class="icons">
                 <ion-icon name="mail-outline"></ion-icon>
                 <p>INFO@COMPANYNAME.COM</p>
              </div>
          </div>
-         <div class="rights">
-            <p></p>
-         </div>
          <div class="social">
             <ion-icon name="logo-instagram"></ion-icon>
             <ion-icon name="logo-facebook"></ion-icon>
             <ion-icon name="logo-twitter"></ion-icon>
          </div>
+         <div class="rights">
+            <span style="display: inline-block; font-size: 24px; color: #ffffff;">©</span>
+            <p>2023 all right reserved. Designed by Mateli Boniface</p>
+         </div>
+        </div>
        </div> 
     </footer>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
